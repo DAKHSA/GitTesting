@@ -45,9 +45,13 @@ public class simpleGoogleTest {
 		return driver.getTitle();
 	}
 	
-	@Test
+	@Test(priority =1 )
 	public void Result() {
 		System.out.println(getTitle());
+	}
+	@Test(priority = 2)
+	public void getlinks() {
+		System.out.println(driver.findElements(By.tagName("a")).size());
 	}
 	
 	@AfterTest

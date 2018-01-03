@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15313" started-at="2018-01-03T17:23:29Z" finished-at="2018-01-03T17:23:44Z">
+  <suite name="Default suite" duration-ms="14823" started-at="2018-01-03T17:47:45Z" finished-at="2018-01-03T17:47:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15313" started-at="2018-01-03T17:23:29Z" finished-at="2018-01-03T17:23:44Z">
+    <test name="Default test" duration-ms="14823" started-at="2018-01-03T17:47:45Z" finished-at="2018-01-03T17:47:59Z">
       <class name="GoogleTitle.simpleGoogleTest">
-        <test-method status="PASS" signature="simpleGoogleTester()[pri:0, instance:GoogleTitle.simpleGoogleTest@66a3ffec]" name="simpleGoogleTester" is-config="true" duration-ms="13840" started-at="2018-01-03T22:53:29Z" finished-at="2018-01-03T22:53:43Z">
+        <test-method status="PASS" signature="simpleGoogleTester()[pri:0, instance:GoogleTitle.simpleGoogleTest@66a3ffec]" name="simpleGoogleTester" is-config="true" duration-ms="13148" started-at="2018-01-03T23:17:45Z" finished-at="2018-01-03T23:17:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- simpleGoogleTester -->
-        <test-method status="PASS" signature="Result()[pri:0, instance:GoogleTitle.simpleGoogleTest@66a3ffec]" name="Result" duration-ms="27" started-at="2018-01-03T22:53:43Z" finished-at="2018-01-03T22:53:43Z">
+        <test-method status="PASS" signature="Result()[pri:1, instance:GoogleTitle.simpleGoogleTest@66a3ffec]" name="Result" duration-ms="16" started-at="2018-01-03T23:17:58Z" finished-at="2018-01-03T23:17:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Result -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:GoogleTitle.simpleGoogleTest@66a3ffec]" name="teardown" is-config="true" duration-ms="1421" started-at="2018-01-03T22:53:43Z" finished-at="2018-01-03T22:53:44Z">
+        <test-method status="PASS" signature="getlinks()[pri:2, instance:GoogleTitle.simpleGoogleTest@66a3ffec]" name="getlinks" duration-ms="33" started-at="2018-01-03T23:17:58Z" finished-at="2018-01-03T23:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlinks -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:GoogleTitle.simpleGoogleTest@66a3ffec]" name="teardown" is-config="true" duration-ms="1607" started-at="2018-01-03T23:17:58Z" finished-at="2018-01-03T23:17:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
